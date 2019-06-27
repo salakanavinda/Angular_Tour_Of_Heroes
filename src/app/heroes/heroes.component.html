@@ -1,0 +1,11 @@
+<div>
+  <label>Id:</label>{{hero.id}}<br>
+  <label>Name:</label>{{hero.name}}
+</div>
+
+<button (click)="share()">Share</button>
+<div>
+  <label>Name:
+  <input [(ngModel)]="hero.name" placeholder="name">
+</label>
+</div>
